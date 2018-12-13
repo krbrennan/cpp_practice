@@ -1,0 +1,28 @@
+/Users/kevinbrennan/Desktop/NCC/CompSci1/practice2.cpp:7:29: error: invalid operands to binary expression ('basic_ostream<char, std::__1::char_traits<char> >' and 'istream' (aka 'basic_istream<char>'))
+  cout << "enter a number " >> cin >> balls;
+  ~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:739:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:788:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:796:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:803:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:831:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:839:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:1502:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:1634:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+^
+1 error generated.
