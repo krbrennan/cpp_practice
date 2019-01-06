@@ -13,8 +13,6 @@ int main()
 
   cout << "\n" << "Next to each letter you'll find the index value for that letter \n";
 
-  // cout << word.length();---------- WORKS
-
   while(iterator < word.length()){
     cout << iterator << ": " << word[iterator] << "\n";
     ++iterator;
