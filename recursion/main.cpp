@@ -5,17 +5,14 @@ using namespace std;
 
 int fib_calculator(int num)
 {
-  if(num <= 1)
-  {
+  if(num <= 1) {
     return num;
-  } else
-  {
+  } else {
     return fib_calculator(num - 1) + fib_calculator(num - 2);
   }
 }
 
-int main()
-{
+int main() {
   int number;
   int solution;
 
